@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+div {
+    border: 3px solid black; /* esto reemplaza los tres border de abajo */
+    /* border-width: 10px;
+    border-color: black;
+    border-style: solid; */
+    border-radius: 8px;
+}

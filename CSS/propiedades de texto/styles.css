@@ -1,0 +1,12 @@
+p {
+    color:blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;  /* letra en negrita */
+    font-style: italic; /* cursiva */
+    text-align: left; /* ubicamos el texto donde queremos */
+    text-decoration: underline; /*Decorado, por ejemplo subrayado */
+    line-height: 1; /* espacio entre linea y linea */
+    text-transform: none; /* para poner todo mayuscula o minuscula- none por defectto */
+    
+}
