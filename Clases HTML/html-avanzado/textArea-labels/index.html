@@ -9,14 +9,32 @@
 <body>
     <form>
         <h2>Contact Form</h2>
+        <fieldset>
+                <legend>Basic Information</legend>
+                <div class="form_input">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="Julián Pignani">
+                </div>
+                <div class="form_input">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="example@gmail.com">
+                </div>
+                <div class="form_input">
+                    <label for="reason">Reason</label>
+                    <input id="reason" type="text" placeholder="The reason for your message">
+                </div>
+        </fieldset>
         <div class="form_input">
-            <input type="text" placeholder="Full name">
+            <label>User Type</label>
+                <select name="type-of-user">
+                    <option value="user1">Follower</option>
+                    <option value="user2">Company</option>
+                    <option value="user3">Others</option>
+                </select>
         </div>
         <div class="form_input">
-            <input type="email" placeholder="Email">
-        </div>
-        <div class="form_input">
-            <textarea rows="8" type="text" placeholder="Description" ></textarea>
+            <label for="descrption">Descrption</label>
+            <textarea id="descrption" rows="8" type="text" placeholder="My name is ..." ></textarea>
         </div>
     </form>
 </body>

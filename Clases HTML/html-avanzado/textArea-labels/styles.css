@@ -4,16 +4,6 @@ body {
     color: #eee;
     background-color: #222;
 }
-h2 {
-    text-align: center;
-    font-family: sans-serif;
-    margin: 0;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 25px;
-    padding: 10px;
-}
 
 form {
     background-color: transparent;  
@@ -23,13 +13,26 @@ form {
     box-shadow: 0px 0px 25px #fff2;
     margin-top: 50px;
     border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
 
 .form_input {
     padding: 6px 20px;
 }
 
-input, textarea {
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+input, textarea, select {
     width: 100%;
     box-sizing: border-box;
     padding: 6px 12px;
@@ -41,6 +44,11 @@ input, textarea {
     font-family: sans-serif;
 }
 
+/* Propeidades para el Select y Optional */
+option {
+    background-color: #222;
+}
+
 /* Propiedades para que no se rompa el textArea */
 textarea {
     min-width: 100%;
@@ -49,3 +57,21 @@ textarea {
     max-height: 200px;
     font-family: sans-serif;
 }
+
+label{
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 1px solid #666;
+    padding: 8px 6px 20px 20px;
+    margin: 20px;
+}
+legend {
+    padding: 0 6px;
+    color: #777;
+}
+
+
